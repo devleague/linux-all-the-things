@@ -17,6 +17,9 @@ In this exercise, you will go through the steps of administering users on a syst
     * Require at least 1 lower case character
     * Require at least 2 numbers
     * Require at least 2 special characters
+    * A user is reminded within 7 days that their password will expire
+    * A user cannot re-use the last 5 passwords they've set in the past
+    * Passwords  should expire after 120 days
 ****
 
 ### User Configuration
@@ -52,6 +55,8 @@ In this exercise, you will go through the steps of administering users on a syst
     * `sudo`
       * `boss`
 
+* Lock the password for `bob` so that he can't log in
+
 * Create a directory in the `/share` directory for each group and ensure that only users in that group can access that directory
 
 * Create a directory in `/share` that the `admin` and `developer` groups can access but **not** the `auditor` group
@@ -65,9 +70,9 @@ In this exercise, you will go through the steps of administering users on a syst
       - generate an SSH key pair for each user in their directory
       - authorized_keys (user read/write permissions)
 
-    * mysupersecret.txt (user read/write permissions)
+    * `mysupersecret.txt` (user read/write permissions)
 
-    * mypublicsecret.txt (user read/write permissions, read for everyone)
+    * `mypublicsecret.txt` (user read/write permissions, read for everyone)
 
 * Make sure that each users home directory are **only** accessible by them
 
@@ -77,9 +82,14 @@ In this exercise, you will go through the steps of administering users on a syst
     * 1 that has a flag in it with the following format: flag{sometexthere} (owned by any user)
 
 ****
+
 ### Patch Management
 * Make sure your operating system has all the latest security patches for installed software
+****
 
+### Disable guest account
+* Make sure that no one can login as a guest account
+  
 ****
 ### Firewall
 * Ensure that you have enabled a firewall on the system
@@ -93,11 +103,22 @@ In this exercise, you will go through the steps of administering users on a syst
 
 ****
 
-### Removal of unused/potentially abused tools and services
+### Uninstall Unnecessary/Potentially Abused Software
 * Make sure the following programs are removed:
     * ftp
     * netcat
 
 ****
+
+### Monitoring Logs
+* Set up a `cron` job that append the current logged in users to the file `/var/log/loggedin.conf` every `20` minutes
+
+****
+
+### Security Policy Documentation
+* Add a document to the desktop that details your organization's security policy and procedures
+
+****
+
 #### Resources
 * [https://www.networkworld.com/article/2726217/endpoint-protection/how-to-enforce-password-complexity-on-linux.html]()
