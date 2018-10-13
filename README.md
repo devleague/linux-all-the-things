@@ -75,6 +75,8 @@ Most packages that come preinstalled and many add-on packages install their own 
 
 `man grep`
 
+##### TL;DR man page alternative
+[TL;DR](https://github.com/tldr-pages/tldr) - Installable tool that generates shorter man pages for many utilities
 
 #### Wildcard Characters
 Wildcard characters can be used in any situation where you're specifying a filename or filepath to account for patterns as opposed to explicit matches.
@@ -154,6 +156,9 @@ Examples:
   * `-l` - List all files, with more detail
   * `-h` - Show file sizes in human readable format
   * `-lah` - Use multiple flags together
+* `ln` - Create hard link between two files, both exist as primary
+    * `-s` - make soft or symlink which is just an alias to another file
+    * `-sf` - overwrite existing symlink
 
 **NOTE:** On Ubuntu you will see some aliases defined to make these commands more easily typed
 
@@ -332,23 +337,20 @@ When managing users on a Linux system there are three key files that contain all
   - open other files
   - executing commands in vim
 
-TODO: Talk about least privilege
-TODO: Show alias capability
-TODO: Create and compile simple C program that sleeps to show process management
-
 #### Optional
-* sort
-  - k (column to sort on)
-* uniq
-  -c
-* strings
-* base64
-* shasum -a 256
-* tar (compression)
-* gzip
-* tr
-* awk (ADVANCED)
-* sed (ADVANCED)
+* `sort`
+    * `- k` (column to sort on)
+* `uniq`
+  * `-c` ()
+* `strings`
+* `base64`
+* `shasum -a 256`
+* `tar (compression)`
+* `gzip`
+* `tr`
+* `awk (ADVANCED)`
+* `sed (ADVANCED)`
 
 ### Resources
-- [http://vim.wikia.com/wiki/Vim_Tips_Wiki]()
+- Vim Tips - [http://vim.wikia.com/wiki/Vim_Tips_Wiki]()
+- TL;DR man pages- [https://github.com/tldr-pages/tldr]()
