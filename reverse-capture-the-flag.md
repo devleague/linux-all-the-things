@@ -54,6 +54,8 @@ In this exercise, you will go through the steps of administering users on a syst
     
     * `sudo`
       * `boss`
+    
+* Create a user account called `hackerz` that cannot login but can be used to run internal software
 
 * Lock the password for `bob` so that he can't log in
 
@@ -67,8 +69,8 @@ In this exercise, you will go through the steps of administering users on a syst
 
 * Make sure that each created user has the following directory structures in their home directories:
     * .ssh (user read/write/executable permissions)
-      - generate an SSH key pair for each user in their directory
-      - authorized_keys (user read/write permissions)
+        - generate an SSH key pair for each user in their directory
+        - `authorized_keys` (user read/write permissions only)
 
     * `mysupersecret.txt` (user read/write permissions)
 
