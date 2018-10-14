@@ -13,7 +13,7 @@ In this exercise, you will go through the steps of administering users on a syst
 ### Password Policy
 * Set the following password policy on the system
     * Minimum length is 12 characters
-    * Require at least 1 1 upper case character
+    * Require at least 1 upper case character
     * Require at least 1 lower case character
     * Require at least 2 numbers
     * Require at least 2 special characters
