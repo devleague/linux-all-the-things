@@ -6,7 +6,9 @@
 ### Linux High Level Things You Should Know
 1. **EVERYTHING** IS A FILE
 1. What is a kernel?
+   * Read Chapter 1 in The Linux Command Line
 1. What is a shell?
+   * Read Chapter 1 in The Linux Command Line
 1. What is an environment?
 1. What is a process?
 1. What is `bash`?
