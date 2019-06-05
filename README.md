@@ -1,5 +1,8 @@
 # linux-all-the-things
 
+### Linux Distributions
+[List_of_Linux_distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+
 ### Linux High Level Things You Should Know
 1. **EVERYTHING** IS A FILE
 1. What is a kernel?
