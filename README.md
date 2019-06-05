@@ -21,6 +21,8 @@
 * `Ctrl+e` - Go to end of line
 * `Ctrl+b` - Go back one character (hold to scroll)
 * `Ctrl+f` - Go forward one character (hold to scroll)
+* `Alt+b` - Go back one word
+* `Alt+f` - Go forward one word
 * `Ctrl+d` - Delete the next character
 * `Ctrl+u` - Delete from cursor to beginning of line
 * `Ctrl+w` - Delete the word before the cursor
