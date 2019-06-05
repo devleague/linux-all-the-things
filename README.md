@@ -24,6 +24,7 @@
 * `Ctrl+d` - Delete the next character
 * `Ctrl+u` - Delete from cursor to beginning of line
 * `Ctrl+w` - Delete the word before the cursor
+* `Ctrl+xx` - Go to beginning of line, edit and repeat command to return to previous position
 * `!!` or `sudo !!` - Repeat the current line or repeat the current line as `sudo` respectively
 * `!15` - Repeat line 15 from `history` 
 * `$_`  - Alias for the value of the argument from the previous command
