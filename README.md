@@ -238,8 +238,8 @@ When managing users on a Linux system there are three key files that contain all
     * `-aG sudo bob` - add user to specified group
 * `userdel` - delete a given user from the system
 * `gpasswd` - used to administer group information
-    `-a bob` - add user to named group
-    `-d bob` - delete user from group
+    * `-a bob` - add user to named group
+    * `-d bob` - delete user from group
 * `groupadd` - create a new group
 * `groupdel` - delete a group
 * `groupmod` - modify an existing group
