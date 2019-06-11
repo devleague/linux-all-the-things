@@ -215,14 +215,14 @@ When managing users on a Linux system there are three key files that contain all
     * `inactive` - number of days after password expires before account is disabled
     * `expire` - days that account has been disabled
     * `!` or `!!` - shows that the user cannot login, default after user is created if no password is set with `useradd`
-    * [https://www.cyberciti.biz/faq/understanding-etcshadow-file/]()
+    * [https://www.cyberciti.biz/faq/understanding-etcshadow-file/](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)
 
 * `/etc/group` - File used to manage all groups and users within them including:
     * `group name` - name of group
     * `password` - usually has an `x`, not used often
     * `group id (gid)` - unique group identifier
     * `group list` - names of the users currently part of that group
-    * [https://www.cyberciti.biz/faq/understanding-etcgroup-file/]()
+    * [https://www.cyberciti.biz/faq/understanding-etcgroup-file/](https://www.cyberciti.biz/faq/understanding-etcgroup-file/)
 
 * `whoami` - shows the current user 
 * `who` - shows all users logged into the system
