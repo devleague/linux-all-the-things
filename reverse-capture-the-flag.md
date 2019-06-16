@@ -113,7 +113,7 @@ In this exercise, you will go through the steps of administering users on a syst
 ****
 
 ### Monitoring Logs
-* Set up a `cron` job that append the current logged in users to the file `/var/log/loggedin.conf` every `20` minutes
+* Set up a `cron` job that append the current logged in users to the file `/var/log/loggedin.log` every `20` minutes
 
 ****
 
