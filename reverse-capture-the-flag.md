@@ -79,7 +79,7 @@ In this exercise, you will go through the steps of administering users on a syst
 * Make sure that each users home directory are **only** accessible by them
 
 * Add 3 secret hidden files somewhere on the file system :
-    * 1 that has the setid bit set (owned by root)
+    * 1 that has the setuid bit set (owned by root)
     * 1 that has the setuid and setgid bit set (owned by root)
     * 1 that has a flag in it with the following format: flag{sometexthere} (owned by any user)
 
