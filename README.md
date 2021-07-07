@@ -318,7 +318,7 @@ When managing users on a Linux system there are three key files that contain all
     * `/etc/cron.daily`
     * `/etc/cron.weekly`
     * `/etc/cron.monthly`
-    * Configuration helper: [https://crontab.guru/]()
+    * Configuration helper: [crontab guru](https://crontab.guru/)
 
 ### Disk Management
 * `du` - Show disk usage statistics
